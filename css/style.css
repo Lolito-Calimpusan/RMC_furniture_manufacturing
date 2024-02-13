@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* hero container */
+.hero-container{
+    background-color: whitesmoke;
+    min-height: 100vh;
+    max-width: 100%;
+}
+/* hero container */
+
+
+.form{
+    margin:auto;
+    background-color: #f2f3f7;
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.3);
+    
+}
+input{
+    margin: 1rem 0; 
+}
+input[type="number"]{
+    margin-top: 1rem;
+}
+
+
+
+
+/* Testimonials */
+.testimonial{
+    width: 100%;
+    height: auto;
+    padding-bottom: 5%;
+}
+.testi-image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: auto;
+
+}
+
+
+
+
+
+/* Para sa mobile devices */
+@media only screen and (max-width: 320px) {
+    /* Paliitin ang font size dito */
+    .hero-container{
+        height: 70vh;
+    }
+    .hero h4 {
+        font-size:5px;
+    }
+
+    /* Dagdagan ang ibang mga element dito na kailangan ng adjustment */
+    .text-muted {
+        font-size: 10px;
+    }
+
+    /* Mga iba pang mga element na kailangan ng adjustment */
+    .btn {
+        font-size: 10px;
+    }
+}
+
+
+
